@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		500C03621E84C878008715FF /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500C03611E84C878008715FF /* LogInViewController.swift */; };
+		500C03641E84C884008715FF /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500C03631E84C884008715FF /* SignInViewController.swift */; };
 		50FB0C0E1E81EF7700D02D8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FB0C0D1E81EF7700D02D8F /* AppDelegate.swift */; };
-		50FB0C101E81EF7700D02D8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FB0C0F1E81EF7700D02D8F /* ViewController.swift */; };
 		50FB0C131E81EF7700D02D8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50FB0C111E81EF7700D02D8F /* Main.storyboard */; };
 		50FB0C151E81EF7700D02D8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50FB0C141E81EF7700D02D8F /* Assets.xcassets */; };
 		50FB0C181E81EF7700D02D8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50FB0C161E81EF7700D02D8F /* LaunchScreen.storyboard */; };
@@ -16,9 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		500C03611E84C878008715FF /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		500C03631E84C884008715FF /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		50FB0C0A1E81EF7700D02D8F /* Huddl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Huddl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50FB0C0D1E81EF7700D02D8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		50FB0C0F1E81EF7700D02D8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		50FB0C121E81EF7700D02D8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50FB0C141E81EF7700D02D8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50FB0C171E81EF7700D02D8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +39,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		500C03601E84C85E008715FF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				50FB0C1F1E81F60800D02D8F /* HomeViewController.swift */,
+				500C03611E84C878008715FF /* LogInViewController.swift */,
+				500C03631E84C884008715FF /* SignInViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		50FB0C011E81EF7700D02D8F = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +68,12 @@
 		50FB0C0C1E81EF7700D02D8F /* Huddl */ = {
 			isa = PBXGroup;
 			children = (
+				500C03601E84C85E008715FF /* ViewControllers */,
 				50FB0C0D1E81EF7700D02D8F /* AppDelegate.swift */,
-				50FB0C0F1E81EF7700D02D8F /* ViewController.swift */,
 				50FB0C111E81EF7700D02D8F /* Main.storyboard */,
 				50FB0C141E81EF7700D02D8F /* Assets.xcassets */,
 				50FB0C161E81EF7700D02D8F /* LaunchScreen.storyboard */,
 				50FB0C191E81EF7700D02D8F /* Info.plist */,
-				50FB0C1F1E81F60800D02D8F /* HomeViewController.swift */,
 			);
 			path = Huddl;
 			sourceTree = "<group>";
@@ -139,9 +150,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50FB0C101E81EF7700D02D8F /* ViewController.swift in Sources */,
+				500C03641E84C884008715FF /* SignInViewController.swift in Sources */,
 				50FB0C0E1E81EF7700D02D8F /* AppDelegate.swift in Sources */,
 				50FB0C201E81F60800D02D8F /* HomeViewController.swift in Sources */,
+				500C03621E84C878008715FF /* LogInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +313,7 @@
 				50FB0C1E1E81EF7700D02D8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
