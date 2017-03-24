@@ -130,23 +130,23 @@
                                         </state>
                                     </button>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fxm-Sr-eFX">
-                                        <rect key="frame" x="16" y="57" width="248" height="1"/>
+                                        <rect key="frame" x="16" y="56" width="248" height="1"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="14t-GT-qvs">
-                                        <rect key="frame" x="16" y="102" width="248" height="1"/>
+                                        <rect key="frame" x="16" y="101" width="248" height="1"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" placeholder="Username" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="osf-05-cET">
-                                        <rect key="frame" x="16" y="28" width="248" height="30"/>
+                                        <rect key="frame" x="16" y="27" width="248" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <attributedString key="attributedText"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" placeholder="•••••••••••" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ybM-Wd-s7K">
-                                        <rect key="frame" x="16" y="73" width="248" height="30"/>
+                                        <rect key="frame" x="16" y="72" width="248" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <attributedString key="attributedText"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
