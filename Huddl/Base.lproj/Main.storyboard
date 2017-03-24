@@ -103,26 +103,11 @@
                                         <color key="backgroundColor" red="0.56470588239999997" green="1" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="LOGIN">
                                             <attributedString key="attributedTitle">
-                                                <fragment content="L">
+                                                <fragment content="LOGIN">
                                                     <attributes>
                                                         <color key="NSColor" red="0.29803921570000003" green="0.68627450980000004" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <font key="NSFont" size="15" name="GillSans"/>
-                                                        <font key="NSOriginalFont" size="17" name="GillSans"/>
-                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                    </attributes>
-                                                </fragment>
-                                                <fragment content="O">
-                                                    <attributes>
-                                                        <color key="NSColor" red="0.29803921570000003" green="0.68627450980000004" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <font key="NSFont" size="15" name="GillSans"/>
-                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                    </attributes>
-                                                </fragment>
-                                                <fragment content="GIN">
-                                                    <attributes>
-                                                        <color key="NSColor" red="0.29803921570000003" green="0.68627450980000004" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <font key="NSFont" size="15" name="GillSans"/>
-                                                        <font key="NSOriginalFont" size="17" name="GillSans"/>
+                                                        <font key="NSFont" size="12" name="GillSans-Light"/>
+                                                        <font key="NSOriginalFont" size="15" name="GillSans-Light"/>
                                                         <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                     </attributes>
                                                 </fragment>
@@ -155,16 +140,6 @@
                                         <rect key="frame" x="282" y="43" width="93" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.7468758589624398" green="1" blue="0.87341053465785101" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal">
-                                            <attributedString key="attributedTitle">
-                                                <fragment content="FORGOT PASSWORD">
-                                                    <attributes>
-                                                        <color key="NSColor" red="0.43917088755327377" green="0.82519014550264547" blue="0.47049322299081703" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <font key="NSFont" size="15" name="GillSans"/>
-                                                    </attributes>
-                                                </fragment>
-                                            </attributedString>
-                                        </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Suu-3m-yRp">
                                         <rect key="frame" x="282" y="87" width="93" height="44"/>
@@ -175,7 +150,7 @@
                                                 <fragment content="BACK">
                                                     <attributes>
                                                         <color key="NSColor" red="0.05011600932815536" green="0.94864865238704377" blue="0.60414360540940837" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <font key="NSFont" size="15" name="GillSans"/>
+                                                        <font key="NSFont" size="12" name="GillSans-Light"/>
                                                         <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                     </attributes>
                                                 </fragment>
@@ -185,6 +160,20 @@
                                             <segue destination="BYZ-38-t0r" kind="show" id="CER-Jb-ACl"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5on-dS-PZg">
+                                        <rect key="frame" x="285" y="45" width="86" height="41"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="FORGOT PASWORD">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.54509803921568623" green="0.76470588235294112" blue="0.29019607843137252" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="12" name="GillSans-Light"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.65490196079999996" green="1" blue="0.92156862750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
