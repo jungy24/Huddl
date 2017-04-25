@@ -1,0 +1,6 @@
+framework module Pods_Huddl {
+  umbrella header "Pods-Huddl-umbrella.h"
+
+  export *
+  module * { export * }
+}
