@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		500C03621E84C878008715FF /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500C03611E84C878008715FF /* LogInViewController.swift */; };
 		500C03641E84C884008715FF /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500C03631E84C884008715FF /* SignInViewController.swift */; };
+		50CDF8CA1ED66ADD00E31023 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 50CDF8C91ED66ADD00E31023 /* GoogleService-Info.plist */; };
 		50FB0C0E1E81EF7700D02D8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FB0C0D1E81EF7700D02D8F /* AppDelegate.swift */; };
 		50FB0C131E81EF7700D02D8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50FB0C111E81EF7700D02D8F /* Main.storyboard */; };
 		50FB0C151E81EF7700D02D8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50FB0C141E81EF7700D02D8F /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 		32339808826089BD15DCAA37 /* Pods-Huddl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Huddl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Huddl/Pods-Huddl.debug.xcconfig"; sourceTree = "<group>"; };
 		500C03611E84C878008715FF /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		500C03631E84C884008715FF /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		50CDF8C91ED66ADD00E31023 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		50FB0C0A1E81EF7700D02D8F /* Huddl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Huddl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50FB0C0D1E81EF7700D02D8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50FB0C121E81EF7700D02D8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				50FB0C141E81EF7700D02D8F /* Assets.xcassets */,
 				50FB0C161E81EF7700D02D8F /* LaunchScreen.storyboard */,
 				50FB0C191E81EF7700D02D8F /* Info.plist */,
+				50CDF8C91ED66ADD00E31023 /* GoogleService-Info.plist */,
 			);
 			path = Huddl;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50FB0C181E81EF7700D02D8F /* LaunchScreen.storyboard in Resources */,
+				50CDF8CA1ED66ADD00E31023 /* GoogleService-Info.plist in Resources */,
 				50FB0C151E81EF7700D02D8F /* Assets.xcassets in Resources */,
 				50FB0C131E81EF7700D02D8F /* Main.storyboard in Resources */,
 			);

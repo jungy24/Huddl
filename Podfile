@@ -8,5 +8,8 @@ target 'Huddl' do
   # Pods for Huddl
 
 pod 'FlatUIKit'
+pod 'FoldingCell', '~> 2.0.3'
+pod 'AFNetworking'
+pod 'Firebase/Core'
 
 end
