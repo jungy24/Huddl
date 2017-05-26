@@ -16,6 +16,7 @@ class SubMainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        customizeNavBar()
         sideMenus()
         // Do any additional setup after loading the view.
     }
@@ -39,6 +40,14 @@ class SubMainViewController: UIViewController {
         
     }
 
+    func customizeNavBar() {
+        
+        navigationController?.navigationBar.tintColor = UIColor(colorLiteralRed: 108/255, green: 120/255, blue: 130/255, alpha: 1)
+        navigationController?.navigationBar.barTintColor = UIColor(colorLiteralRed: 134/255, green: 240/255, blue: 223/255, alpha: 1)
+        navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor(colorLiteralRed: 108/255, green: 120/255, blue: 130/255, alpha: 1)]
+        
+    }
+    
     /*
     // MARK: - Navigation
 
