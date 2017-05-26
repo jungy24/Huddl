@@ -357,7 +357,7 @@
             </objects>
             <point key="canvasLocation" x="53.600000000000001" y="2681.1094452773614"/>
         </scene>
-        <!--Sub Main View Controller-->
+        <!--Team HBV-->
         <scene sceneID="Hif-JB-RpF">
             <objects>
                 <viewController id="tJ9-j6-adc" customClass="SubMainViewController" customModule="Huddl" customModuleProvider="target" sceneMemberID="viewController">
@@ -370,7 +370,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="jDd-E0-gBU">
+                    <navigationItem key="navigationItem" title="Team HBV" id="jDd-E0-gBU">
                         <barButtonItem key="leftBarButtonItem" image="Menu Icon" id="Jum-or-IKc"/>
                         <barButtonItem key="rightBarButtonItem" image="Chat Icon-App-29x29" id="ZBv-Nk-dV4">
                             <connections>
