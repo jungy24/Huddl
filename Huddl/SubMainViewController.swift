@@ -30,7 +30,7 @@ class SubMainViewController: UIViewController {
         if revealViewController() != nil{
             menuButton.target = revealViewController()
             menuButton.action = #selector(SWRevealViewController.revealToggle(_:))
-            revealViewController().rearViewRevealWidth = 275
+            revealViewController().rearViewRevealWidth = 290
             //revealViewController().rightViewRevealWidth = 160
             
             view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
