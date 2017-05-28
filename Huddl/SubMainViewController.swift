@@ -45,9 +45,9 @@ class SubMainViewController: UIViewController {
         //self.navigationController?.navigationBar.titleTextAttributes = [ NSFontAttributeName: UIFont(name: "Gill Sans", size: 22)!]
 
         
-        navigationController?.navigationBar.tintColor = UIColor(colorLiteralRed: 108/255, green: 120/255, blue: 130/255, alpha: 1)
+        navigationController?.navigationBar.tintColor = UIColor(colorLiteralRed: 70/255, green: 80/255, blue: 90/255, alpha: 1)
         navigationController?.navigationBar.barTintColor = UIColor(colorLiteralRed: 134/255, green: 240/255, blue: 223/255, alpha: 1)
-        navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor(colorLiteralRed: 108/255, green: 120/255, blue: 130/255, alpha: 1), NSFontAttributeName: UIFont(name: "Gill Sans", size: 22)!]
+        navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor(colorLiteralRed: 70/255, green: 80/255, blue: 90/255, alpha: 1), NSFontAttributeName: UIFont(name: "Gill Sans", size: 22)!]
         
     }
     

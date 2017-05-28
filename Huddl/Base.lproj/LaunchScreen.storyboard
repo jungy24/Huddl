@@ -21,19 +21,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yaw-wX-FYs">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yaw-wX-FYs">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZKB-zY-XnP">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZKB-zY-XnP">
                                         <rect key="frame" x="98" y="122" width="178" height="178"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.65490196079999996" green="1" blue="0.92156862750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="ZKB-zY-XnP" firstAttribute="top" secondItem="yaw-wX-FYs" secondAttribute="top" constant="122" id="1ib-mQ-WC8"/>
+                                    <constraint firstItem="ZKB-zY-XnP" firstAttribute="leading" secondItem="yaw-wX-FYs" secondAttribute="leading" constant="98" id="XPl-cD-GV5"/>
+                                    <constraint firstAttribute="bottom" secondItem="ZKB-zY-XnP" secondAttribute="bottom" constant="367" id="eXf-Jj-wmI"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZKB-zY-XnP" secondAttribute="trailing" constant="99" id="xpo-J2-eBb"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="yaw-wX-FYs" secondAttribute="bottom" id="EGe-Fd-Yra"/>
+                            <constraint firstItem="yaw-wX-FYs" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="GMg-G4-kSa"/>
+                            <constraint firstItem="yaw-wX-FYs" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="R3w-eY-Afh"/>
+                            <constraint firstAttribute="trailing" secondItem="yaw-wX-FYs" secondAttribute="trailing" id="xHp-Yq-OD3"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
